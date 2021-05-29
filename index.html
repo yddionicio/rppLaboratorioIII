@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/archivos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="contenedor_carga">
+        <div id="carga"></div>
+    </div>
+    <button id=boton>Agregar</button>
+    <form id ="form" class="invisible">
+        <h3>Alta de un Auto</h3>
+        <button id=idCerrar>X</button>
+        <label for="Marca">Marca</label>
+        <input type="text" name="marca" id="idMarca">
+
+        <label for="Modelo">Modelo</label>
+        <input type="text" name="modelo" id="idModelo">
+
+        <label for="Año">Año</label>
+        <select name="Año" id="Año">
+          </select>
+
+        <div id = "Botones">
+            <button id=idAlta>Guardar</button>
+        </div>
+
+
+    </form>
+    <h2>Lista de Autos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Make</th>
+                <th>model</th>
+                <th>year</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+
+</body>
+
+</html>
